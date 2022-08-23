@@ -9,7 +9,17 @@ for i in range(10):
     print(i,msg)
 print()
 
-i = 1
-for j in ('Beijing','Hongkong','London','Pairs','Berlin','Newyork','Tokyo','Seoul','Rome','Moscow'):
-    print(i,j)
-    i=i+1
+# 测试嵌套循环
+for i in range(5):
+    for j in range(3):
+        print(i,j)
+print()
+
+# 定义列表
+arr = ('Beijing','Hongkong','London','Pairs','Berlin','Newyork','Tokyo','Seoul','Rome','Moscow')
+# 打印列表
+print(arr)
+# for循环遍历arr中的所有元素
+for index, value in enumerate(arr):
+    print(index, value)
+print()
