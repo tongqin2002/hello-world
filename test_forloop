@@ -1,12 +1,12 @@
 # 从0~10之间，间隔2个取数
-msg = "hello world"
+Msg = "hello world"
 for i in range(0,10,2):
-    print(i,msg)
+    print(i,Msg)
 print()
 
 # 从0~10之间，间隔1个取数
 for i in range(10):
-    print(i,msg)
+    print(i,Msg)
 print()
 
 # 测试嵌套循环
